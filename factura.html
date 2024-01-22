@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div#publicidad1{
+position:absolute;
+top:0px;
+left:0px;
+width:100px;
+height:100px;
+border: 1px solid red;
+}
+div#publicidad2{
+position:absolute;
+top:100px;
+left:0px;
+width:100px;
+height:100px;
+border: 1px solid red;
+}
+div#publicidad3{
+position:absolute;
+top:200px;
+left:0px;
+width:100px;
+height:100px;
+border: 1px solid red;
+}
+div#publicidad4{
+position:absolute;
+top:0px;
+left:900px;
+width:100px;
+height:100px;
+border: 1px solid red;
+}
+div#publicidad5{
+position:absolute;
+top:100px;
+left:900px;
+width:100px;
+height:100px;
+border: 1px solid red;
+}
+div#publicidad6{
+position:absolute;
+top:200px;
+left:900px;
+width:100px;
+height:100px;
+border: 1px solid red;
+}
+div#pujas{
+position:absolute;
+top:0px;
+left:700px;
+width:200px;
+height:120px;
+background-color:grey;
+text-align: center;
+}
+div#superior{
+position:absolute;
+top:0px;
+left:120px;
+width:600px;
+height:20px;
+background-color:orange;
+text-align: center;
+}
+div#central{
+position:absolute;
+top:50px;
+left:120px;
+width:auto;
+text-align: center;
+}
+table,tr,td,th{
+border: 1px solid black;
+text-align: center;
+}
+.pequena{
+width:50px;
+}
+#cursos{
+border: 2px solid red;
+text-align: right;
+}
+</style>
+<script src="factura.js"></script>
+</head>
+<body>
+<div id="superior">
+<form>
+</form>
+</div>
+<div id="central">
+<form>
+<p>NOMBRE:<input type="text"></p>
+<p>DIRECCION:<input type="text"></p>
+<p>FECHA DE PAGO:<input type="text" placeholder="mm/dd/aaaa"></p>
+<p>TIPO DE PAGO: A<input type="checkbox" name="tipo" value="A">
+   B<input type="checkbox" name="tipo" value="B">
+   C<input type="checkbox" name="tipo" value="C">
+   D<input type="checkbox" name="tipo" value="D"></p>
+<p>CUENTA:<input type="text"></p>
+<p>TIPO DE CUENTA: A<input type="checkbox" name="tipoCuenta" value="A">
+   B<input type="checkbox" name="tipoCuenta" value="B">
+   C<input type="checkbox" name="tipoCuenta" value="C">
+   D<input type="checkbox" name="tipoCuenta" value="D"></p>
+<p><button type="submit">ENVIAR</button><button type="button">PARAR</button></p>
+</form>
+<div id="cursos">
+</div>
+</div>
+</body>
+</html>
